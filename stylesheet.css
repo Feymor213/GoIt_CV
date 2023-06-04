@@ -1,0 +1,199 @@
+@font-face {
+    font-family: Montserrat_bold;
+    src: url(MontserratFonts/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: Montserrat_regular;
+    src: url(MontserratFonts/Montserrat-Regular.ttf);
+}
+
+.bold_font {
+    font-family: 'Montserrat_bold';
+    font-weight: 700;
+}
+
+.small_font {
+    font-size: 12px;
+    line-height: 15px;
+    color: #A8A8A8;
+}
+
+body {
+    font-family: 'Montserrat_regular';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+ul {
+    padding: 0;
+    list-style: inside;
+}
+
+#left_div ul > li::marker {
+    color: #6D9BF5;
+}
+
+#experience_div ul > li::marker {
+    color: #595959;
+}
+
+ol {
+    list-style-position: inside;
+    list-style-type: decimal;
+    padding: 0;
+}
+
+ol > li::marker {
+    font-family: 'Montserrat_bold';
+    font-weight: 700;
+}
+
+h1 {
+    font-family: 'Montserrat_bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+    margin-top: 19px;
+}
+
+h3 {
+    font-family: 'Montserrat_bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    margin: 0px;
+}
+
+h4 {
+    font-family: 'Montserrat_bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 12px;
+    margin-bottom: 11px;
+}
+
+h5 {
+    font-family: 'Montserrat_bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 12px;
+    margin-bottom: 11px;
+}
+
+p {
+    margin: 0;
+}
+
+hr {
+    display: inline-block;
+    width: 163.91px;
+    margin: 0;
+    border-top: 0px;
+    border-bottom: 1px dashed;
+}
+
+#wrapper_div {
+    display: flex;
+    width: 1280px;
+    height: 1399px;
+    margin: auto;
+
+    background: #f6f6f6;
+}
+
+#left_div {
+    position: relative;
+    width: 370px;
+    height: 1319px;
+    margin-left: 48px;
+    margin-top: 40px;
+    
+    background: #E0EBFE;
+}
+
+#photo_img {
+    position: absolute;
+    top: 40px;
+}
+
+#contacts_div {
+    position: relative;
+    margin: 0;
+    width: 191px;
+    height: 83px;
+    left: 40px;
+    top: 445px;
+}
+
+#contacts_text {
+    position: absolute;
+    bottom: 0;
+}
+
+#contacts_text > p {
+    display: inline-block;
+    margin: 0;
+}
+
+#tech_skills_div {
+    position: absolute;
+    top: 575px;
+    left: 40px;
+}
+
+#soft_skills_div {
+    position: absolute;
+    top: 822px;
+    left: 40px;
+}
+
+#main_div {
+    position: relative;
+    width: 525px;
+    height: 953px;
+    margin-left: 80px;
+    margin-top: 142px;
+}
+
+span.grey {
+    color: #595959;
+}
+
+span.blue {
+    color: #6D9BF5;
+}
+
+#projects_div {
+    margin-top: 64px;
+}
+
+#experience_div {
+    margin-top: 51px;
+}
+
+#experience_div > div {
+    margin-top: 16px;
+}
+
+#education_div {
+    margin-top: 43px;
+}
+
+#rectangle {
+    position: absolute;
+    background-color: white;
+    width: 1200px;
+    height: 1319px;
+    margin-top: 40px;
+    margin-left: 40px;
+
+}
